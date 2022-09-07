@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F4F4F4;
+
+}
+
+/* Header */
+
+
+
+.header{
+    /* border: 3px solid red; */
+    font-family: 'Tiro Devanagari Hindi', serif;
+    /* width: 100vw; */
+    /* margin: 0 5rem ; */
+    /* margin-bottom: 1rem; */
+     display: flex;
+    align-items: center;
+    justify-content:center;
+   
+    
+
+    
+}
+
+
+
+.header h3{
+    /* background-color: burlywood; */
+    margin-top: 3rem;
+    margin-left: 15rem;
+    width: 50%;
+}
+
+.header .row{
+     /* border: 2px solid orange; */
+
+}
+
+
+
+.par{
+    /* background-color: aqua; */
+    width: 60%;
+    margin-top: 1rem;
+
+}
+
+.par1{
+    margin: 0;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* Main */
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .row{
+    /* border: 3px solid red; */
+    /* padding: 2rem; */
+
+}
+
+.row .pic{
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+
+
+.main .row img{
+width: 200px;
+/* border: 2px solid yellowgreen; */
+border-radius: 5px;
+box-shadow: 0px 3px 5px 2px rgb(0, 0, 0, 0.5);
+
+}    
+
+
+.main .row .pic2, 
+.main .row .pic5{
+    margin-top: 5rem;
+}
+
+.main .row .pic2 .job, 
+.main .row .pic5 .job{
+ margin-top: -5px;
+}
+
+
+
+.main .row .name{
+    /* background-color: orange; */
+    margin-top: 2rem;
+    
+}
+
+.main .row .job{
+    /* background-color: orchid; */
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 10px;
+
+    writing-mode: vertical-lr;
+    position: relative;
+    top: -350px;
+    left: 110px;
+    
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+.main .row .pic4,
+.main .row .pic6{
+    margin-top: 5rem;
+}
+
+.main .row .pic5{
+    margin: 0;
+}
+
+
+.par{
+    margin-left: 150px;
+}
+.header h3{
+    margin-left: 180px;
+}
+
+}
